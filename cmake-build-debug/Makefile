@@ -142,32 +142,32 @@ excersise_for_cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/build
 .PHONY : excersise_for_cplusplus/fast
 
-day_01/maopao.obj: day_01/maopao.cpp.obj
+day_01/arrayswitch.obj: day_01/arrayswitch.cpp.obj
 
-.PHONY : day_01/maopao.obj
+.PHONY : day_01/arrayswitch.obj
 
 # target to build an object file
-day_01/maopao.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_01/maopao.cpp.obj
-.PHONY : day_01/maopao.cpp.obj
+day_01/arrayswitch.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_01/arrayswitch.cpp.obj
+.PHONY : day_01/arrayswitch.cpp.obj
 
-day_01/maopao.i: day_01/maopao.cpp.i
+day_01/arrayswitch.i: day_01/arrayswitch.cpp.i
 
-.PHONY : day_01/maopao.i
+.PHONY : day_01/arrayswitch.i
 
 # target to preprocess a source file
-day_01/maopao.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_01/maopao.cpp.i
-.PHONY : day_01/maopao.cpp.i
+day_01/arrayswitch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_01/arrayswitch.cpp.i
+.PHONY : day_01/arrayswitch.cpp.i
 
-day_01/maopao.s: day_01/maopao.cpp.s
+day_01/arrayswitch.s: day_01/arrayswitch.cpp.s
 
-.PHONY : day_01/maopao.s
+.PHONY : day_01/arrayswitch.s
 
 # target to generate assembly for a file
-day_01/maopao.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_01/maopao.cpp.s
-.PHONY : day_01/maopao.cpp.s
+day_01/arrayswitch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_01/arrayswitch.cpp.s
+.PHONY : day_01/arrayswitch.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... excersise_for_cplusplus
-	@echo ... day_01/maopao.obj
-	@echo ... day_01/maopao.i
-	@echo ... day_01/maopao.s
+	@echo ... day_01/arrayswitch.obj
+	@echo ... day_01/arrayswitch.i
+	@echo ... day_01/arrayswitch.s
 .PHONY : help
 
 
