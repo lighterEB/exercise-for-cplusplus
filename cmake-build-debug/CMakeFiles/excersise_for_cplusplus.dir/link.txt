@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\excersise_for_cplusplus.dir/objects.a
+"D:\Program Files\MinGW\mingw64\bin\ar.exe" cr CMakeFiles\excersise_for_cplusplus.dir/objects.a @CMakeFiles\excersise_for_cplusplus.dir\objects1.rsp
+"D:\Program Files\MinGW\mingw64\bin\g++.exe" -g   -Wl,--whole-archive CMakeFiles\excersise_for_cplusplus.dir/objects.a -Wl,--no-whole-archive  -o excersise_for_cplusplus.exe -Wl,--out-implib,libexcersise_for_cplusplus.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\excersise_for_cplusplus.dir\linklibs.rsp
