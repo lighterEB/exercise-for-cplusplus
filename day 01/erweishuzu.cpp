@@ -1,6 +1,6 @@
 //
 // Created by tosixJuly on 2020/12/25.
-// äºŒç»´æ•°ç»„-æˆç»©ç»Ÿè®¡
+// ¶şÎ¬Êı×é-³É¼¨Í³¼Æ
 
 #include <iostream>
 #include <string>
@@ -8,14 +8,14 @@ using namespace std;
 
 int main()
 {
-    //åˆ›å»ºäºŒç»´æ•°ç»„ï¼Œ3è¡Œ3åˆ—
+    //´´½¨¶şÎ¬Êı×é£¬3ĞĞ3ÁĞ
     int scores[3][3] = {
             {100, 80, 100},
             {95, 60, 87},
             {100, 100, 99}
     };
 
-    string name[3] = {"å¼ ä¸‰", "æå››", "ç‹éº»å­"};
+    string name[3] = {"ÕÅÈı", "ÀîËÄ", "ÍõÂé×Ó"};
     int k = 0;
     for (auto &score : scores)
     {
@@ -24,7 +24,7 @@ int main()
         {
             sum += j;
         }
-        cout << name[k] << "çš„æ€»åˆ†ï¼š " << sum << endl;
+        cout << name[k] << "µÄ×Ü·Ö£º " << sum << endl;
         k++;
     }
 }

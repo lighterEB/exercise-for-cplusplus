@@ -1,6 +1,6 @@
 //
 // Created by tosixJuly on 2020/12/25.
-// å†’æ³¡æ’åº
+// Ã°ÅİÅÅĞò
 
 #include <iostream>
 using namespace std;
@@ -8,12 +8,12 @@ using namespace std;
 int main()
 {
     int arry[9] = { 3,0,5,7,8,4,10,23,16};
-    cout << "ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½" << endl;
+    cout << "ÅÅĞòÇ°£º" << endl;
     for (int i : arry)
     {
         cout << i << endl;
     }
-    // Ã°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    // Ã°ÅİÅÅĞò
     for (int i = 0; i < 9 - 1; i++)
     {
         for(int j = 0; j< 9 - i - 1; j++)
@@ -27,7 +27,7 @@ int main()
             }
         }
     }
-    cout << "ï¿½ï¿½ï¿½ï¿½ï¿½" << endl;
+    cout << "ÅÅĞòºó£º" << endl;
     for (int i : arry)
     {
         cout << i << endl;
