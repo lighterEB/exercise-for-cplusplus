@@ -76,27 +76,27 @@ include CMakeFiles/excersise_for_cplusplus.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/excersise_for_cplusplus.dir/flags.make
 
-CMakeFiles/excersise_for_cplusplus.dir/day_01/arrayswitch.cpp.obj: CMakeFiles/excersise_for_cplusplus.dir/flags.make
-CMakeFiles/excersise_for_cplusplus.dir/day_01/arrayswitch.cpp.obj: ../day\ 01/arrayswitch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\C++Projects\excersise-for-cplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/excersise_for_cplusplus.dir/day_01/arrayswitch.cpp.obj"
-	"D:\Program Files\MinGW\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\excersise_for_cplusplus.dir\day_01\arrayswitch.cpp.obj -c "E:\Projects\C++Projects\excersise-for-cplusplus\day 01\arrayswitch.cpp"
+CMakeFiles/excersise_for_cplusplus.dir/day_01/erweishuzu.cpp.obj: CMakeFiles/excersise_for_cplusplus.dir/flags.make
+CMakeFiles/excersise_for_cplusplus.dir/day_01/erweishuzu.cpp.obj: ../day\ 01/erweishuzu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\C++Projects\excersise-for-cplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/excersise_for_cplusplus.dir/day_01/erweishuzu.cpp.obj"
+	"D:\Program Files\MinGW\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\excersise_for_cplusplus.dir\day_01\erweishuzu.cpp.obj -c "E:\Projects\C++Projects\excersise-for-cplusplus\day 01\erweishuzu.cpp"
 
-CMakeFiles/excersise_for_cplusplus.dir/day_01/arrayswitch.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/excersise_for_cplusplus.dir/day_01/arrayswitch.cpp.i"
-	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Projects\C++Projects\excersise-for-cplusplus\day 01\arrayswitch.cpp" > CMakeFiles\excersise_for_cplusplus.dir\day_01\arrayswitch.cpp.i
+CMakeFiles/excersise_for_cplusplus.dir/day_01/erweishuzu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/excersise_for_cplusplus.dir/day_01/erweishuzu.cpp.i"
+	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Projects\C++Projects\excersise-for-cplusplus\day 01\erweishuzu.cpp" > CMakeFiles\excersise_for_cplusplus.dir\day_01\erweishuzu.cpp.i
 
-CMakeFiles/excersise_for_cplusplus.dir/day_01/arrayswitch.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/excersise_for_cplusplus.dir/day_01/arrayswitch.cpp.s"
-	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Projects\C++Projects\excersise-for-cplusplus\day 01\arrayswitch.cpp" -o CMakeFiles\excersise_for_cplusplus.dir\day_01\arrayswitch.cpp.s
+CMakeFiles/excersise_for_cplusplus.dir/day_01/erweishuzu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/excersise_for_cplusplus.dir/day_01/erweishuzu.cpp.s"
+	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Projects\C++Projects\excersise-for-cplusplus\day 01\erweishuzu.cpp" -o CMakeFiles\excersise_for_cplusplus.dir\day_01\erweishuzu.cpp.s
 
 # Object files for target excersise_for_cplusplus
 excersise_for_cplusplus_OBJECTS = \
-"CMakeFiles/excersise_for_cplusplus.dir/day_01/arrayswitch.cpp.obj"
+"CMakeFiles/excersise_for_cplusplus.dir/day_01/erweishuzu.cpp.obj"
 
 # External object files for target excersise_for_cplusplus
 excersise_for_cplusplus_EXTERNAL_OBJECTS =
 
-excersise_for_cplusplus.exe: CMakeFiles/excersise_for_cplusplus.dir/day_01/arrayswitch.cpp.obj
+excersise_for_cplusplus.exe: CMakeFiles/excersise_for_cplusplus.dir/day_01/erweishuzu.cpp.obj
 excersise_for_cplusplus.exe: CMakeFiles/excersise_for_cplusplus.dir/build.make
 excersise_for_cplusplus.exe: CMakeFiles/excersise_for_cplusplus.dir/linklibs.rsp
 excersise_for_cplusplus.exe: CMakeFiles/excersise_for_cplusplus.dir/objects1.rsp

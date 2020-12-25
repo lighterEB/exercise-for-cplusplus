@@ -1,6 +1,6 @@
 //
 // Created by tosixJuly on 2020/12/25.
-//
+// 一维数组-元素逆置
 
 #include <iostream>
 using namespace std;

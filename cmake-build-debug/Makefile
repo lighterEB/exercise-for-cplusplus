@@ -142,32 +142,32 @@ excersise_for_cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/build
 .PHONY : excersise_for_cplusplus/fast
 
-day_01/arrayswitch.obj: day_01/arrayswitch.cpp.obj
+day_01/erweishuzu.obj: day_01/erweishuzu.cpp.obj
 
-.PHONY : day_01/arrayswitch.obj
+.PHONY : day_01/erweishuzu.obj
 
 # target to build an object file
-day_01/arrayswitch.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_01/arrayswitch.cpp.obj
-.PHONY : day_01/arrayswitch.cpp.obj
+day_01/erweishuzu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_01/erweishuzu.cpp.obj
+.PHONY : day_01/erweishuzu.cpp.obj
 
-day_01/arrayswitch.i: day_01/arrayswitch.cpp.i
+day_01/erweishuzu.i: day_01/erweishuzu.cpp.i
 
-.PHONY : day_01/arrayswitch.i
+.PHONY : day_01/erweishuzu.i
 
 # target to preprocess a source file
-day_01/arrayswitch.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_01/arrayswitch.cpp.i
-.PHONY : day_01/arrayswitch.cpp.i
+day_01/erweishuzu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_01/erweishuzu.cpp.i
+.PHONY : day_01/erweishuzu.cpp.i
 
-day_01/arrayswitch.s: day_01/arrayswitch.cpp.s
+day_01/erweishuzu.s: day_01/erweishuzu.cpp.s
 
-.PHONY : day_01/arrayswitch.s
+.PHONY : day_01/erweishuzu.s
 
 # target to generate assembly for a file
-day_01/arrayswitch.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_01/arrayswitch.cpp.s
-.PHONY : day_01/arrayswitch.cpp.s
+day_01/erweishuzu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_01/erweishuzu.cpp.s
+.PHONY : day_01/erweishuzu.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... excersise_for_cplusplus
-	@echo ... day_01/arrayswitch.obj
-	@echo ... day_01/arrayswitch.i
-	@echo ... day_01/arrayswitch.s
+	@echo ... day_01/erweishuzu.obj
+	@echo ... day_01/erweishuzu.i
+	@echo ... day_01/erweishuzu.s
 .PHONY : help
 
 

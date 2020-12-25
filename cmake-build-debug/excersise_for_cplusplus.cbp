@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/Projects/C++Projects/excersise-for-cplusplus/day 01/arrayswitch.cpp">
+		<Unit filename="E:/Projects/C++Projects/excersise-for-cplusplus/day 01/erweishuzu.cpp">
 			<Option target="excersise_for_cplusplus"/>
 		</Unit>
 		<Unit filename="E:/Projects/C++Projects/excersise-for-cplusplus/CMakeLists.txt">
