@@ -142,32 +142,32 @@ excersise_for_cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/build
 .PHONY : excersise_for_cplusplus/fast
 
-day_01/erweishuzu.obj: day_01/erweishuzu.cpp.obj
+day_02/calcarea.obj: day_02/calcarea.cpp.obj
 
-.PHONY : day_01/erweishuzu.obj
+.PHONY : day_02/calcarea.obj
 
 # target to build an object file
-day_01/erweishuzu.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_01/erweishuzu.cpp.obj
-.PHONY : day_01/erweishuzu.cpp.obj
+day_02/calcarea.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_02/calcarea.cpp.obj
+.PHONY : day_02/calcarea.cpp.obj
 
-day_01/erweishuzu.i: day_01/erweishuzu.cpp.i
+day_02/calcarea.i: day_02/calcarea.cpp.i
 
-.PHONY : day_01/erweishuzu.i
+.PHONY : day_02/calcarea.i
 
 # target to preprocess a source file
-day_01/erweishuzu.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_01/erweishuzu.cpp.i
-.PHONY : day_01/erweishuzu.cpp.i
+day_02/calcarea.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_02/calcarea.cpp.i
+.PHONY : day_02/calcarea.cpp.i
 
-day_01/erweishuzu.s: day_01/erweishuzu.cpp.s
+day_02/calcarea.s: day_02/calcarea.cpp.s
 
-.PHONY : day_01/erweishuzu.s
+.PHONY : day_02/calcarea.s
 
 # target to generate assembly for a file
-day_01/erweishuzu.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_01/erweishuzu.cpp.s
-.PHONY : day_01/erweishuzu.cpp.s
+day_02/calcarea.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_02/calcarea.cpp.s
+.PHONY : day_02/calcarea.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... excersise_for_cplusplus
-	@echo ... day_01/erweishuzu.obj
-	@echo ... day_01/erweishuzu.i
-	@echo ... day_01/erweishuzu.s
+	@echo ... day_02/calcarea.obj
+	@echo ... day_02/calcarea.i
+	@echo ... day_02/calcarea.s
 .PHONY : help
 
 
