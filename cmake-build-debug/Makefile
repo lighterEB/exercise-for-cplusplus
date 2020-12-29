@@ -142,32 +142,32 @@ excersise_for_cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/build
 .PHONY : excersise_for_cplusplus/fast
 
-day_02/calcarea.obj: day_02/calcarea.cpp.obj
+day_02/zhizhenmaopao.obj: day_02/zhizhenmaopao.cpp.obj
 
-.PHONY : day_02/calcarea.obj
+.PHONY : day_02/zhizhenmaopao.obj
 
 # target to build an object file
-day_02/calcarea.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_02/calcarea.cpp.obj
-.PHONY : day_02/calcarea.cpp.obj
+day_02/zhizhenmaopao.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_02/zhizhenmaopao.cpp.obj
+.PHONY : day_02/zhizhenmaopao.cpp.obj
 
-day_02/calcarea.i: day_02/calcarea.cpp.i
+day_02/zhizhenmaopao.i: day_02/zhizhenmaopao.cpp.i
 
-.PHONY : day_02/calcarea.i
+.PHONY : day_02/zhizhenmaopao.i
 
 # target to preprocess a source file
-day_02/calcarea.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_02/calcarea.cpp.i
-.PHONY : day_02/calcarea.cpp.i
+day_02/zhizhenmaopao.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_02/zhizhenmaopao.cpp.i
+.PHONY : day_02/zhizhenmaopao.cpp.i
 
-day_02/calcarea.s: day_02/calcarea.cpp.s
+day_02/zhizhenmaopao.s: day_02/zhizhenmaopao.cpp.s
 
-.PHONY : day_02/calcarea.s
+.PHONY : day_02/zhizhenmaopao.s
 
 # target to generate assembly for a file
-day_02/calcarea.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_02/calcarea.cpp.s
-.PHONY : day_02/calcarea.cpp.s
+day_02/zhizhenmaopao.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_02/zhizhenmaopao.cpp.s
+.PHONY : day_02/zhizhenmaopao.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... excersise_for_cplusplus
-	@echo ... day_02/calcarea.obj
-	@echo ... day_02/calcarea.i
-	@echo ... day_02/calcarea.s
+	@echo ... day_02/zhizhenmaopao.obj
+	@echo ... day_02/zhizhenmaopao.i
+	@echo ... day_02/zhizhenmaopao.s
 .PHONY : help
 
 
