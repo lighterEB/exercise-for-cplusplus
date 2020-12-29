@@ -76,27 +76,27 @@ include CMakeFiles/excersise_for_cplusplus.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/excersise_for_cplusplus.dir/flags.make
 
-CMakeFiles/excersise_for_cplusplus.dir/day_02/zhizhenmaopao.cpp.obj: CMakeFiles/excersise_for_cplusplus.dir/flags.make
-CMakeFiles/excersise_for_cplusplus.dir/day_02/zhizhenmaopao.cpp.obj: ../day\ 02/zhizhenmaopao.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\C++Projects\excersise-for-cplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/excersise_for_cplusplus.dir/day_02/zhizhenmaopao.cpp.obj"
-	"D:\Program Files\MinGW\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\excersise_for_cplusplus.dir\day_02\zhizhenmaopao.cpp.obj -c "E:\Projects\C++Projects\excersise-for-cplusplus\day 02\zhizhenmaopao.cpp"
+CMakeFiles/excersise_for_cplusplus.dir/day_02/pointStruct.cpp.obj: CMakeFiles/excersise_for_cplusplus.dir/flags.make
+CMakeFiles/excersise_for_cplusplus.dir/day_02/pointStruct.cpp.obj: ../day\ 02/pointStruct.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\C++Projects\excersise-for-cplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/excersise_for_cplusplus.dir/day_02/pointStruct.cpp.obj"
+	"D:\Program Files\MinGW\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\excersise_for_cplusplus.dir\day_02\pointStruct.cpp.obj -c "E:\Projects\C++Projects\excersise-for-cplusplus\day 02\pointStruct.cpp"
 
-CMakeFiles/excersise_for_cplusplus.dir/day_02/zhizhenmaopao.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/excersise_for_cplusplus.dir/day_02/zhizhenmaopao.cpp.i"
-	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Projects\C++Projects\excersise-for-cplusplus\day 02\zhizhenmaopao.cpp" > CMakeFiles\excersise_for_cplusplus.dir\day_02\zhizhenmaopao.cpp.i
+CMakeFiles/excersise_for_cplusplus.dir/day_02/pointStruct.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/excersise_for_cplusplus.dir/day_02/pointStruct.cpp.i"
+	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Projects\C++Projects\excersise-for-cplusplus\day 02\pointStruct.cpp" > CMakeFiles\excersise_for_cplusplus.dir\day_02\pointStruct.cpp.i
 
-CMakeFiles/excersise_for_cplusplus.dir/day_02/zhizhenmaopao.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/excersise_for_cplusplus.dir/day_02/zhizhenmaopao.cpp.s"
-	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Projects\C++Projects\excersise-for-cplusplus\day 02\zhizhenmaopao.cpp" -o CMakeFiles\excersise_for_cplusplus.dir\day_02\zhizhenmaopao.cpp.s
+CMakeFiles/excersise_for_cplusplus.dir/day_02/pointStruct.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/excersise_for_cplusplus.dir/day_02/pointStruct.cpp.s"
+	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Projects\C++Projects\excersise-for-cplusplus\day 02\pointStruct.cpp" -o CMakeFiles\excersise_for_cplusplus.dir\day_02\pointStruct.cpp.s
 
 # Object files for target excersise_for_cplusplus
 excersise_for_cplusplus_OBJECTS = \
-"CMakeFiles/excersise_for_cplusplus.dir/day_02/zhizhenmaopao.cpp.obj"
+"CMakeFiles/excersise_for_cplusplus.dir/day_02/pointStruct.cpp.obj"
 
 # External object files for target excersise_for_cplusplus
 excersise_for_cplusplus_EXTERNAL_OBJECTS =
 
-excersise_for_cplusplus.exe: CMakeFiles/excersise_for_cplusplus.dir/day_02/zhizhenmaopao.cpp.obj
+excersise_for_cplusplus.exe: CMakeFiles/excersise_for_cplusplus.dir/day_02/pointStruct.cpp.obj
 excersise_for_cplusplus.exe: CMakeFiles/excersise_for_cplusplus.dir/build.make
 excersise_for_cplusplus.exe: CMakeFiles/excersise_for_cplusplus.dir/linklibs.rsp
 excersise_for_cplusplus.exe: CMakeFiles/excersise_for_cplusplus.dir/objects1.rsp
