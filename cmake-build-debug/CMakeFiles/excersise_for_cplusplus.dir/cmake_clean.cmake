@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/excersise_for_cplusplus.dir/day_02/structParam.cpp.obj"
+  "CMakeFiles/excersise_for_cplusplus.dir/day_02/constStruct.cpp.obj"
   "excersise_for_cplusplus.exe"
   "excersise_for_cplusplus.exe.manifest"
   "excersise_for_cplusplus.pdb"
