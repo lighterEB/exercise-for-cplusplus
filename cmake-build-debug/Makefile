@@ -142,32 +142,32 @@ excersise_for_cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/build
 .PHONY : excersise_for_cplusplus/fast
 
-day_02/qiantaoStruct.obj: day_02/qiantaoStruct.cpp.obj
+day_02/structParam.obj: day_02/structParam.cpp.obj
 
-.PHONY : day_02/qiantaoStruct.obj
+.PHONY : day_02/structParam.obj
 
 # target to build an object file
-day_02/qiantaoStruct.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_02/qiantaoStruct.cpp.obj
-.PHONY : day_02/qiantaoStruct.cpp.obj
+day_02/structParam.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_02/structParam.cpp.obj
+.PHONY : day_02/structParam.cpp.obj
 
-day_02/qiantaoStruct.i: day_02/qiantaoStruct.cpp.i
+day_02/structParam.i: day_02/structParam.cpp.i
 
-.PHONY : day_02/qiantaoStruct.i
+.PHONY : day_02/structParam.i
 
 # target to preprocess a source file
-day_02/qiantaoStruct.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_02/qiantaoStruct.cpp.i
-.PHONY : day_02/qiantaoStruct.cpp.i
+day_02/structParam.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_02/structParam.cpp.i
+.PHONY : day_02/structParam.cpp.i
 
-day_02/qiantaoStruct.s: day_02/qiantaoStruct.cpp.s
+day_02/structParam.s: day_02/structParam.cpp.s
 
-.PHONY : day_02/qiantaoStruct.s
+.PHONY : day_02/structParam.s
 
 # target to generate assembly for a file
-day_02/qiantaoStruct.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_02/qiantaoStruct.cpp.s
-.PHONY : day_02/qiantaoStruct.cpp.s
+day_02/structParam.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_02/structParam.cpp.s
+.PHONY : day_02/structParam.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... excersise_for_cplusplus
-	@echo ... day_02/qiantaoStruct.obj
-	@echo ... day_02/qiantaoStruct.i
-	@echo ... day_02/qiantaoStruct.s
+	@echo ... day_02/structParam.obj
+	@echo ... day_02/structParam.i
+	@echo ... day_02/structParam.s
 .PHONY : help
 
 
