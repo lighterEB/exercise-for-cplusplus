@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-E:/Projects/C++Projects/excersise-for-cplusplus/day 02/constStruct.cpp
+E:/Projects/C++Projects/excersise-for-cplusplus/day 02/structCase1.cpp
 iostream
+-
+ctime
 -
 

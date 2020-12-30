@@ -142,32 +142,32 @@ excersise_for_cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/build
 .PHONY : excersise_for_cplusplus/fast
 
-day_02/constStruct.obj: day_02/constStruct.cpp.obj
+day_02/structCase1.obj: day_02/structCase1.cpp.obj
 
-.PHONY : day_02/constStruct.obj
+.PHONY : day_02/structCase1.obj
 
 # target to build an object file
-day_02/constStruct.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_02/constStruct.cpp.obj
-.PHONY : day_02/constStruct.cpp.obj
+day_02/structCase1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_02/structCase1.cpp.obj
+.PHONY : day_02/structCase1.cpp.obj
 
-day_02/constStruct.i: day_02/constStruct.cpp.i
+day_02/structCase1.i: day_02/structCase1.cpp.i
 
-.PHONY : day_02/constStruct.i
+.PHONY : day_02/structCase1.i
 
 # target to preprocess a source file
-day_02/constStruct.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_02/constStruct.cpp.i
-.PHONY : day_02/constStruct.cpp.i
+day_02/structCase1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_02/structCase1.cpp.i
+.PHONY : day_02/structCase1.cpp.i
 
-day_02/constStruct.s: day_02/constStruct.cpp.s
+day_02/structCase1.s: day_02/structCase1.cpp.s
 
-.PHONY : day_02/constStruct.s
+.PHONY : day_02/structCase1.s
 
 # target to generate assembly for a file
-day_02/constStruct.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_02/constStruct.cpp.s
-.PHONY : day_02/constStruct.cpp.s
+day_02/structCase1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_02/structCase1.cpp.s
+.PHONY : day_02/structCase1.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... excersise_for_cplusplus
-	@echo ... day_02/constStruct.obj
-	@echo ... day_02/constStruct.i
-	@echo ... day_02/constStruct.s
+	@echo ... day_02/structCase1.obj
+	@echo ... day_02/structCase1.i
+	@echo ... day_02/structCase1.s
 .PHONY : help
 
 
