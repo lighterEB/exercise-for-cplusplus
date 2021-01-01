@@ -57,12 +57,25 @@ void addPerson(struct ContactManage* cm)
         cin >> name;
         cm->personArray[cm->mSize].name = name;
         // 性别
-
+        int sex;
+        cout << "请输入性别：" << endl;
+        cin >> sex;
+        cm->personArray[cm->mSize].sex = sex;
         // 年龄
-
+        int age;
+        cout << "请输入年龄：" << endl;
+        cin >> age;
+        cm->personArray[cm->mSize].age = age;
         // 电话
-
+        int phone;
+        cout << "请输入电话：" << endl;
+        cin >> phone;
+        cm->personArray[cm->mSize].phoneNum = phone;
         // 住址
+        string address;
+        cout << "请输入住址：" << endl;
+        cin >> address;
+        cm->personArray[cm->mSize].address = address;
     }
 }
 
