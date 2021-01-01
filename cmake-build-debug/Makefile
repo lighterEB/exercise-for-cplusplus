@@ -142,32 +142,32 @@ excersise_for_cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/build
 .PHONY : excersise_for_cplusplus/fast
 
-day_02/structCase1.obj: day_02/structCase1.cpp.obj
+day_03/contentManage.obj: day_03/contentManage.cpp.obj
 
-.PHONY : day_02/structCase1.obj
+.PHONY : day_03/contentManage.obj
 
 # target to build an object file
-day_02/structCase1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_02/structCase1.cpp.obj
-.PHONY : day_02/structCase1.cpp.obj
+day_03/contentManage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_03/contentManage.cpp.obj
+.PHONY : day_03/contentManage.cpp.obj
 
-day_02/structCase1.i: day_02/structCase1.cpp.i
+day_03/contentManage.i: day_03/contentManage.cpp.i
 
-.PHONY : day_02/structCase1.i
+.PHONY : day_03/contentManage.i
 
 # target to preprocess a source file
-day_02/structCase1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_02/structCase1.cpp.i
-.PHONY : day_02/structCase1.cpp.i
+day_03/contentManage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_03/contentManage.cpp.i
+.PHONY : day_03/contentManage.cpp.i
 
-day_02/structCase1.s: day_02/structCase1.cpp.s
+day_03/contentManage.s: day_03/contentManage.cpp.s
 
-.PHONY : day_02/structCase1.s
+.PHONY : day_03/contentManage.s
 
 # target to generate assembly for a file
-day_02/structCase1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_02/structCase1.cpp.s
-.PHONY : day_02/structCase1.cpp.s
+day_03/contentManage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_03/contentManage.cpp.s
+.PHONY : day_03/contentManage.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... excersise_for_cplusplus
-	@echo ... day_02/structCase1.obj
-	@echo ... day_02/structCase1.i
-	@echo ... day_02/structCase1.s
+	@echo ... day_03/contentManage.obj
+	@echo ... day_03/contentManage.i
+	@echo ... day_03/contentManage.s
 .PHONY : help
 
 
