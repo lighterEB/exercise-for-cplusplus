@@ -6,6 +6,7 @@
 */
 
 #include <iostream>
+#define MAX 1000
 using namespace std;
 
 
@@ -35,7 +36,7 @@ struct Person
 struct ContactManage
 {
     struct Person personArray[MAX];
-    int mSize;  // 通讯录人数数量
+    int mSize{};  // 通讯录人数数量
 };
 int main()
 {
