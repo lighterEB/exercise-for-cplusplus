@@ -26,8 +26,16 @@ void showMenue()
 struct Person
 {
     string name;    // 联系人名字
+    int sex;     // 性别
+    int age;    //年龄
     int phoneNum;   // 电话
     string address; // 地址
+};
+// 通讯录结构体
+struct ContactManage
+{
+    struct Person personArray[MAX];
+    int mSize;  // 通讯录人数数量
 };
 int main()
 {
