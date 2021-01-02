@@ -29,7 +29,7 @@ struct Person
     string name;    // 联系人名字
     int sex{};     // 性别
     int age{};    //年龄
-    int phoneNum{};   // 电话
+    string phoneNum{};   // 电话
     string address; // 地址
 };
 // 通讯录结构体
@@ -82,7 +82,7 @@ void addPerson(struct ContactManage* cm)
         cin >> age;
         cm->personArray[cm->mSize].age = age;
         // 电话
-        int phone;
+        string phone;
         cout << "请输入电话：" << endl;
         cin >> phone;
         cm->personArray[cm->mSize].phoneNum = phone;
@@ -94,6 +94,29 @@ void addPerson(struct ContactManage* cm)
         // 更新通讯录
         cm->mSize++;
         cout << "添加成功！" << endl;
+    }
+}
+
+// 显示联系人函数
+void showPerson(ContactManage* cm)
+{
+    // 判断通讯录记录是否为空，如果为空提示记录为空
+    // 如果不为0，显示记录中的联系人
+    if(cm->mSize == 0)
+    {
+        cout << "通讯录为空" << endl;
+    }
+    else
+    {
+        cout << "联系人信息：" << endl;
+        for(int i = 0; i < cm->mSize; i++)
+        {
+            cout << "姓名：" << cm->personArray[i].name << "\t"
+                    << "年龄：" << cm->personArray[i].age << "\t"
+                    << "性别：" << cm->personArray[i].sex << "\t"
+                    << "电话：" << cm->personArray[i].phoneNum << "\t"
+                    << "住址：" << cm->personArray[i].address << "\t" << endl;
+        }
     }
 }
 
@@ -112,6 +135,7 @@ int main()
                 addPerson(&cm);     //利用地址传递修改实参
                 break;
             case 2:     // 显示联系人
+                showPerson(&cm);
                 break;
             case 3:     // 删除联系人
                 break;
@@ -126,5 +150,4 @@ int main()
                 return 0;
         }
     }
-    return 0;
 }
