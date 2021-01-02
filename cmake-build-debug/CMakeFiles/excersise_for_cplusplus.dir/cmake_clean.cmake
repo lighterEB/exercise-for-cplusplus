@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/excersise_for_cplusplus.dir/day_04/duiqu.cpp.obj"
-  "CMakeFiles/excersise_for_cplusplus.dir/day_04/zhanqu.cpp.obj"
   "excersise_for_cplusplus.exe"
   "excersise_for_cplusplus.exe.manifest"
   "excersise_for_cplusplus.pdb"

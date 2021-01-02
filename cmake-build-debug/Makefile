@@ -169,33 +169,6 @@ day_04/duiqu.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_04/duiqu.cpp.s
 .PHONY : day_04/duiqu.cpp.s
 
-day_04/zhanqu.obj: day_04/zhanqu.cpp.obj
-
-.PHONY : day_04/zhanqu.obj
-
-# target to build an object file
-day_04/zhanqu.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_04/zhanqu.cpp.obj
-.PHONY : day_04/zhanqu.cpp.obj
-
-day_04/zhanqu.i: day_04/zhanqu.cpp.i
-
-.PHONY : day_04/zhanqu.i
-
-# target to preprocess a source file
-day_04/zhanqu.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_04/zhanqu.cpp.i
-.PHONY : day_04/zhanqu.cpp.i
-
-day_04/zhanqu.s: day_04/zhanqu.cpp.s
-
-.PHONY : day_04/zhanqu.s
-
-# target to generate assembly for a file
-day_04/zhanqu.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_04/zhanqu.cpp.s
-.PHONY : day_04/zhanqu.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -208,9 +181,6 @@ help:
 	@echo ... day_04/duiqu.obj
 	@echo ... day_04/duiqu.i
 	@echo ... day_04/duiqu.s
-	@echo ... day_04/zhanqu.obj
-	@echo ... day_04/zhanqu.i
-	@echo ... day_04/zhanqu.s
 .PHONY : help
 
 

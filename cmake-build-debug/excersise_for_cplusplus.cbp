@@ -83,9 +83,6 @@
 		<Unit filename="E:/Projects/C++Projects/excersise-for-cplusplus/day 04/duiqu.cpp">
 			<Option target="excersise_for_cplusplus"/>
 		</Unit>
-		<Unit filename="E:/Projects/C++Projects/excersise-for-cplusplus/day 04/zhanqu.cpp">
-			<Option target="excersise_for_cplusplus"/>
-		</Unit>
 		<Unit filename="E:/Projects/C++Projects/excersise-for-cplusplus/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
