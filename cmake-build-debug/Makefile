@@ -142,32 +142,59 @@ excersise_for_cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/build
 .PHONY : excersise_for_cplusplus/fast
 
-day_03/contentManage.obj: day_03/contentManage.cpp.obj
+day_04/duiqu.obj: day_04/duiqu.cpp.obj
 
-.PHONY : day_03/contentManage.obj
+.PHONY : day_04/duiqu.obj
 
 # target to build an object file
-day_03/contentManage.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_03/contentManage.cpp.obj
-.PHONY : day_03/contentManage.cpp.obj
+day_04/duiqu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_04/duiqu.cpp.obj
+.PHONY : day_04/duiqu.cpp.obj
 
-day_03/contentManage.i: day_03/contentManage.cpp.i
+day_04/duiqu.i: day_04/duiqu.cpp.i
 
-.PHONY : day_03/contentManage.i
+.PHONY : day_04/duiqu.i
 
 # target to preprocess a source file
-day_03/contentManage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_03/contentManage.cpp.i
-.PHONY : day_03/contentManage.cpp.i
+day_04/duiqu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_04/duiqu.cpp.i
+.PHONY : day_04/duiqu.cpp.i
 
-day_03/contentManage.s: day_03/contentManage.cpp.s
+day_04/duiqu.s: day_04/duiqu.cpp.s
 
-.PHONY : day_03/contentManage.s
+.PHONY : day_04/duiqu.s
 
 # target to generate assembly for a file
-day_03/contentManage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_03/contentManage.cpp.s
-.PHONY : day_03/contentManage.cpp.s
+day_04/duiqu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_04/duiqu.cpp.s
+.PHONY : day_04/duiqu.cpp.s
+
+day_04/zhanqu.obj: day_04/zhanqu.cpp.obj
+
+.PHONY : day_04/zhanqu.obj
+
+# target to build an object file
+day_04/zhanqu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_04/zhanqu.cpp.obj
+.PHONY : day_04/zhanqu.cpp.obj
+
+day_04/zhanqu.i: day_04/zhanqu.cpp.i
+
+.PHONY : day_04/zhanqu.i
+
+# target to preprocess a source file
+day_04/zhanqu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_04/zhanqu.cpp.i
+.PHONY : day_04/zhanqu.cpp.i
+
+day_04/zhanqu.s: day_04/zhanqu.cpp.s
+
+.PHONY : day_04/zhanqu.s
+
+# target to generate assembly for a file
+day_04/zhanqu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_04/zhanqu.cpp.s
+.PHONY : day_04/zhanqu.cpp.s
 
 # Help Target
 help:
@@ -178,9 +205,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... excersise_for_cplusplus
-	@echo ... day_03/contentManage.obj
-	@echo ... day_03/contentManage.i
-	@echo ... day_03/contentManage.s
+	@echo ... day_04/duiqu.obj
+	@echo ... day_04/duiqu.i
+	@echo ... day_04/duiqu.s
+	@echo ... day_04/zhanqu.obj
+	@echo ... day_04/zhanqu.i
+	@echo ... day_04/zhanqu.s
 .PHONY : help
 
 
