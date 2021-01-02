@@ -23,6 +23,7 @@ void arry()
     {
         cout << array[i] <<endl;
     }
+    // 释放堆区数组要加中括号
     delete[] array;
 }
 
