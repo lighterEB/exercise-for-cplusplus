@@ -120,6 +120,36 @@ void showPerson(ContactManage* cm)
     }
 }
 
+// 查找联系人
+int isExist(ContactManage* cm, const string& name)
+{
+    for (int i = 0; i < cm->mSize; i++)
+    {
+        if (cm->personArray[i].name == name)
+        {
+            return i;
+        }
+    }
+    return -1;
+}
+
+// 删除联系人函数
+void deletePerson(ContactManage* cm)
+{
+    cout << "请输入要删除的联系人姓名：" << endl;
+    string name;
+    cin >> name;
+    int ret = isExist(cm, name);
+    if(ret == -1)
+    {
+        cout << "查无此人" << endl;
+    }
+    else
+    {
+
+    }
+}
+
 int main()
 {
     ContactManage cm;
@@ -138,6 +168,7 @@ int main()
                 showPerson(&cm);
                 break;
             case 3:     // 删除联系人
+                deletePerson(&cm);
                 break;
             case 4:     // 查找联系人
                 break;
