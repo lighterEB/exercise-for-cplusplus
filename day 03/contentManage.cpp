@@ -201,8 +201,49 @@ void modifyPerson(ContactManage* cm)
     if (ret != -1)
     {
         cout << "请输入要修改的信息：" << endl;
-        cout << "姓名： " << endl;
+        // 姓名
+        string name;
+        system("cls");
+        cout << "请输入姓名：" << endl;
         cin >> name;
+        cm->personArray[ret].name = name;
+        // 性别
+        int sex = 0;
+        while (true)
+        {
+            cout << "请输入性别：" << endl;
+            cout << "1.------ 男" << endl;
+            cout << "2.------ 女" << endl;
+            cin >> sex;
+            if (sex == 1 || sex == 2)
+            {
+                break;
+            }
+            else
+            {
+                cout << "输入有误请重新输入！" << endl;
+                continue;
+            }
+        }
+        cm->personArray[ret].sex = sex;
+        // 年龄
+        int age;
+        cout << "请输入年龄：" << endl;
+        cin >> age;
+        cm->personArray[ret].age = age;
+        // 电话
+        string phone;
+        cout << "请输入电话：" << endl;
+        cin >> phone;
+        cm->personArray[ret].phoneNum = phone;
+        // 住址
+        string address;
+        cout << "请输入住址：" << endl;
+        cin >> address;
+        cm->personArray[ret].address = address;
+        // 更新通讯录
+        cout << "修改成功！" << endl;
+        system("pause");
 
     }
 }
@@ -240,6 +281,7 @@ int main()
                 findPerson(&cm);
                 break;
             case 5:     // 修改联系人
+                modifyPerson(&cm);
                 break;
             case 6:     // 清空联系人
                 clearPerson(&cm);
