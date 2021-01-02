@@ -27,9 +27,9 @@ void showMenue()
 struct Person
 {
     string name;    // 联系人名字
-    int sex;     // 性别
-    int age;    //年龄
-    int phoneNum;   // 电话
+    int sex{};     // 性别
+    int age{};    //年龄
+    int phoneNum{};   // 电话
     string address; // 地址
 };
 // 通讯录结构体
@@ -47,7 +47,8 @@ void addPerson(struct ContactManage* cm)
     {
         cout << "通讯录已满，无法添加！" << endl;
         return;
-    } else
+    }
+    else
     {
         // 添加具体联系人
 
@@ -57,9 +58,23 @@ void addPerson(struct ContactManage* cm)
         cin >> name;
         cm->personArray[cm->mSize].name = name;
         // 性别
-        int sex;
-        cout << "请输入性别：" << endl;
-        cin >> sex;
+        int sex = 0;
+        while (true)
+        {
+            cout << "请输入性别：" << endl;
+            cout << "1.------ 男" << endl;
+            cout << "2.------ 女" << endl;
+            cin >> sex;
+            if (sex == 1 || sex == 2)
+            {
+                break;
+            }
+            else
+            {
+                cout << "输入有误请重新输入！" << endl;
+                continue;
+            }
+        }
         cm->personArray[cm->mSize].sex = sex;
         // 年龄
         int age;
@@ -76,6 +91,9 @@ void addPerson(struct ContactManage* cm)
         cout << "请输入住址：" << endl;
         cin >> address;
         cm->personArray[cm->mSize].address = address;
+        // 更新通讯录
+        cm->mSize++;
+        cout << "添加成功！" << endl;
     }
 }
 
