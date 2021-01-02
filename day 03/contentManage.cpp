@@ -243,9 +243,14 @@ void modifyPerson(ContactManage* cm)
         cm->personArray[ret].address = address;
         // 更新通讯录
         cout << "修改成功！" << endl;
-        system("pause");
+
 
     }
+    else
+    {
+        cout << "查无此人！" << endl;
+    }
+    system("pause");
 }
 
 // 清空联系人
