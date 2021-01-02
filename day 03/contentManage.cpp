@@ -146,7 +146,11 @@ void deletePerson(ContactManage* cm)
     }
     else
     {
-
+        for (int i = ret; i < cm->mSize; i++)
+        {
+            cm->personArray[i] = cm->personArray[i+1];
+        }
+        cm->mSize--;
     }
 }
 
