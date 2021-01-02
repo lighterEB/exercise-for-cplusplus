@@ -8,8 +8,22 @@ using namespace std;
 
 int * func()
 {
-    int * p = new int(10);
+    int * p = new int(10);      // new要与delete配对使用
     return p;
+}
+
+void arry()
+{
+    int* array = new int[10];
+    for (int i = 0; i < 10; i++)
+    {
+        array[i] = 100 + i;
+    }
+    for (int i = 0; i < 10; i++)
+    {
+        cout << array[i] <<endl;
+    }
+    delete[] array;
 }
 
 int main()
@@ -20,4 +34,6 @@ int main()
     cout << (int)*p << endl;
     cout << (int)*p << endl;
     cout << (int)*p << endl;
+    delete p;
+    arry();
 }
