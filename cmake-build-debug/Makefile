@@ -142,59 +142,32 @@ excersise_for_cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/build
 .PHONY : excersise_for_cplusplus/fast
 
-day_04/day_05.obj: day_04/day_05.cpp.obj
+day_05/yinyong.obj: day_05/yinyong.cpp.obj
 
-.PHONY : day_04/day_05.obj
-
-# target to build an object file
-day_04/day_05.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_04/day_05.cpp.obj
-.PHONY : day_04/day_05.cpp.obj
-
-day_04/day_05.i: day_04/day_05.cpp.i
-
-.PHONY : day_04/day_05.i
-
-# target to preprocess a source file
-day_04/day_05.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_04/day_05.cpp.i
-.PHONY : day_04/day_05.cpp.i
-
-day_04/day_05.s: day_04/day_05.cpp.s
-
-.PHONY : day_04/day_05.s
-
-# target to generate assembly for a file
-day_04/day_05.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_04/day_05.cpp.s
-.PHONY : day_04/day_05.cpp.s
-
-day_04/duiqu.obj: day_04/duiqu.cpp.obj
-
-.PHONY : day_04/duiqu.obj
+.PHONY : day_05/yinyong.obj
 
 # target to build an object file
-day_04/duiqu.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_04/duiqu.cpp.obj
-.PHONY : day_04/duiqu.cpp.obj
+day_05/yinyong.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_05/yinyong.cpp.obj
+.PHONY : day_05/yinyong.cpp.obj
 
-day_04/duiqu.i: day_04/duiqu.cpp.i
+day_05/yinyong.i: day_05/yinyong.cpp.i
 
-.PHONY : day_04/duiqu.i
+.PHONY : day_05/yinyong.i
 
 # target to preprocess a source file
-day_04/duiqu.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_04/duiqu.cpp.i
-.PHONY : day_04/duiqu.cpp.i
+day_05/yinyong.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_05/yinyong.cpp.i
+.PHONY : day_05/yinyong.cpp.i
 
-day_04/duiqu.s: day_04/duiqu.cpp.s
+day_05/yinyong.s: day_05/yinyong.cpp.s
 
-.PHONY : day_04/duiqu.s
+.PHONY : day_05/yinyong.s
 
 # target to generate assembly for a file
-day_04/duiqu.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_04/duiqu.cpp.s
-.PHONY : day_04/duiqu.cpp.s
+day_05/yinyong.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_05/yinyong.cpp.s
+.PHONY : day_05/yinyong.cpp.s
 
 # Help Target
 help:
@@ -205,12 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... excersise_for_cplusplus
-	@echo ... day_04/day_05.obj
-	@echo ... day_04/day_05.i
-	@echo ... day_04/day_05.s
-	@echo ... day_04/duiqu.obj
-	@echo ... day_04/duiqu.i
-	@echo ... day_04/duiqu.s
+	@echo ... day_05/yinyong.obj
+	@echo ... day_05/yinyong.i
+	@echo ... day_05/yinyong.s
 .PHONY : help
 
 
