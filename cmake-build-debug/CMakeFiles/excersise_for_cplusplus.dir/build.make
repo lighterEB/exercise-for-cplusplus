@@ -76,27 +76,27 @@ include CMakeFiles/excersise_for_cplusplus.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/excersise_for_cplusplus.dir/flags.make
 
-CMakeFiles/excersise_for_cplusplus.dir/day_05/yinyong.cpp.obj: CMakeFiles/excersise_for_cplusplus.dir/flags.make
-CMakeFiles/excersise_for_cplusplus.dir/day_05/yinyong.cpp.obj: ../day\ 05/yinyong.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\C++Projects\excersise-for-cplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/excersise_for_cplusplus.dir/day_05/yinyong.cpp.obj"
-	"D:\Program Files\MinGW\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\excersise_for_cplusplus.dir\day_05\yinyong.cpp.obj -c "E:\Projects\C++Projects\excersise-for-cplusplus\day 05\yinyong.cpp"
+CMakeFiles/excersise_for_cplusplus.dir/day_05/switchNumber.cpp.obj: CMakeFiles/excersise_for_cplusplus.dir/flags.make
+CMakeFiles/excersise_for_cplusplus.dir/day_05/switchNumber.cpp.obj: ../day\ 05/switchNumber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\C++Projects\excersise-for-cplusplus\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/excersise_for_cplusplus.dir/day_05/switchNumber.cpp.obj"
+	"D:\Program Files\MinGW\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\excersise_for_cplusplus.dir\day_05\switchNumber.cpp.obj -c "E:\Projects\C++Projects\excersise-for-cplusplus\day 05\switchNumber.cpp"
 
-CMakeFiles/excersise_for_cplusplus.dir/day_05/yinyong.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/excersise_for_cplusplus.dir/day_05/yinyong.cpp.i"
-	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Projects\C++Projects\excersise-for-cplusplus\day 05\yinyong.cpp" > CMakeFiles\excersise_for_cplusplus.dir\day_05\yinyong.cpp.i
+CMakeFiles/excersise_for_cplusplus.dir/day_05/switchNumber.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/excersise_for_cplusplus.dir/day_05/switchNumber.cpp.i"
+	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\Projects\C++Projects\excersise-for-cplusplus\day 05\switchNumber.cpp" > CMakeFiles\excersise_for_cplusplus.dir\day_05\switchNumber.cpp.i
 
-CMakeFiles/excersise_for_cplusplus.dir/day_05/yinyong.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/excersise_for_cplusplus.dir/day_05/yinyong.cpp.s"
-	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Projects\C++Projects\excersise-for-cplusplus\day 05\yinyong.cpp" -o CMakeFiles\excersise_for_cplusplus.dir\day_05\yinyong.cpp.s
+CMakeFiles/excersise_for_cplusplus.dir/day_05/switchNumber.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/excersise_for_cplusplus.dir/day_05/switchNumber.cpp.s"
+	"D:\Program Files\MinGW\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\Projects\C++Projects\excersise-for-cplusplus\day 05\switchNumber.cpp" -o CMakeFiles\excersise_for_cplusplus.dir\day_05\switchNumber.cpp.s
 
 # Object files for target excersise_for_cplusplus
 excersise_for_cplusplus_OBJECTS = \
-"CMakeFiles/excersise_for_cplusplus.dir/day_05/yinyong.cpp.obj"
+"CMakeFiles/excersise_for_cplusplus.dir/day_05/switchNumber.cpp.obj"
 
 # External object files for target excersise_for_cplusplus
 excersise_for_cplusplus_EXTERNAL_OBJECTS =
 
-excersise_for_cplusplus.exe: CMakeFiles/excersise_for_cplusplus.dir/day_05/yinyong.cpp.obj
+excersise_for_cplusplus.exe: CMakeFiles/excersise_for_cplusplus.dir/day_05/switchNumber.cpp.obj
 excersise_for_cplusplus.exe: CMakeFiles/excersise_for_cplusplus.dir/build.make
 excersise_for_cplusplus.exe: CMakeFiles/excersise_for_cplusplus.dir/linklibs.rsp
 excersise_for_cplusplus.exe: CMakeFiles/excersise_for_cplusplus.dir/objects1.rsp
