@@ -18,9 +18,9 @@ void vSwap(int x, int y)
 // 2、地址传递
 void aSwap(int* x, int* y)
 {
-    int* temp = x;
-    x = y;
-    y = temp;
+    int temp = *x;
+    *x = *y;
+    *y = temp;
     cout << "&a = " << x << endl;
     cout << "&b = " << y << endl;
     cout << "a = " << *x << endl;
@@ -33,7 +33,7 @@ int main()
     int b = 20;
     cout << "a = " << a << endl;
     cout << "b = " << b << endl;
-    //vSwap(a, b);
-    aSwap(&a, &b);
+    vSwap(a, b);  // 值传递，形参不修饰实参
+    aSwap(&a, &b); // 地址传递，形参修饰实参
 
 }
