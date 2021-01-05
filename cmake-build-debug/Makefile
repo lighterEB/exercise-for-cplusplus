@@ -142,32 +142,32 @@ excersise_for_cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/build
 .PHONY : excersise_for_cplusplus/fast
 
-day_05/switchNumber.obj: day_05/switchNumber.cpp.obj
+day_05/retYingyong.obj: day_05/retYingyong.cpp.obj
 
-.PHONY : day_05/switchNumber.obj
+.PHONY : day_05/retYingyong.obj
 
 # target to build an object file
-day_05/switchNumber.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_05/switchNumber.cpp.obj
-.PHONY : day_05/switchNumber.cpp.obj
+day_05/retYingyong.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_05/retYingyong.cpp.obj
+.PHONY : day_05/retYingyong.cpp.obj
 
-day_05/switchNumber.i: day_05/switchNumber.cpp.i
+day_05/retYingyong.i: day_05/retYingyong.cpp.i
 
-.PHONY : day_05/switchNumber.i
+.PHONY : day_05/retYingyong.i
 
 # target to preprocess a source file
-day_05/switchNumber.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_05/switchNumber.cpp.i
-.PHONY : day_05/switchNumber.cpp.i
+day_05/retYingyong.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_05/retYingyong.cpp.i
+.PHONY : day_05/retYingyong.cpp.i
 
-day_05/switchNumber.s: day_05/switchNumber.cpp.s
+day_05/retYingyong.s: day_05/retYingyong.cpp.s
 
-.PHONY : day_05/switchNumber.s
+.PHONY : day_05/retYingyong.s
 
 # target to generate assembly for a file
-day_05/switchNumber.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_05/switchNumber.cpp.s
-.PHONY : day_05/switchNumber.cpp.s
+day_05/retYingyong.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_05/retYingyong.cpp.s
+.PHONY : day_05/retYingyong.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... excersise_for_cplusplus
-	@echo ... day_05/switchNumber.obj
-	@echo ... day_05/switchNumber.i
-	@echo ... day_05/switchNumber.s
+	@echo ... day_05/retYingyong.obj
+	@echo ... day_05/retYingyong.i
+	@echo ... day_05/retYingyong.s
 .PHONY : help
 
 

@@ -3,4 +3,4 @@ project(excersise_for_cplusplus)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(excersise_for_cplusplus "day 05/switchNumber.cpp")
+add_executable(excersise_for_cplusplus "day 05/retYingyong.cpp")
