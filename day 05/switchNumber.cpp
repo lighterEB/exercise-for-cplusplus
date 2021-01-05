@@ -27,6 +27,14 @@ void aSwap(int* x, int* y)
     cout << "b = " << *y << endl;
 }
 // 3、引用传递
+void rSwap(int &x, int &y)
+{
+    int temp = x;
+    x = y;
+    y = temp;
+    cout << "a = " << x << endl;
+    cout << "b = " << y << endl;
+}
 int main()
 {
     int a = 10;
@@ -34,6 +42,12 @@ int main()
     cout << "a = " << a << endl;
     cout << "b = " << b << endl;
     vSwap(a, b);  // 值传递，形参不修饰实参
+    cout << "a = " << a << endl;
+    cout << "b = " << b << endl;
     aSwap(&a, &b); // 地址传递，形参修饰实参
-
+    cout << "a = " << a << endl;
+    cout << "b = " << b << endl;
+    rSwap(a, b); // 引用传递，形参修饰实参
+    cout << "a = " << a << endl;
+    cout << "b = " << b << endl;
 }
