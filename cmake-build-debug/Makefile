@@ -142,32 +142,32 @@ excersise_for_cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/build
 .PHONY : excersise_for_cplusplus/fast
 
-day_06/structVSclass.obj: day_06/structVSclass.cpp.obj
+day_06/memoryspace.obj: day_06/memoryspace.cpp.obj
 
-.PHONY : day_06/structVSclass.obj
+.PHONY : day_06/memoryspace.obj
 
 # target to build an object file
-day_06/structVSclass.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_06/structVSclass.cpp.obj
-.PHONY : day_06/structVSclass.cpp.obj
+day_06/memoryspace.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_06/memoryspace.cpp.obj
+.PHONY : day_06/memoryspace.cpp.obj
 
-day_06/structVSclass.i: day_06/structVSclass.cpp.i
+day_06/memoryspace.i: day_06/memoryspace.cpp.i
 
-.PHONY : day_06/structVSclass.i
+.PHONY : day_06/memoryspace.i
 
 # target to preprocess a source file
-day_06/structVSclass.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_06/structVSclass.cpp.i
-.PHONY : day_06/structVSclass.cpp.i
+day_06/memoryspace.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_06/memoryspace.cpp.i
+.PHONY : day_06/memoryspace.cpp.i
 
-day_06/structVSclass.s: day_06/structVSclass.cpp.s
+day_06/memoryspace.s: day_06/memoryspace.cpp.s
 
-.PHONY : day_06/structVSclass.s
+.PHONY : day_06/memoryspace.s
 
 # target to generate assembly for a file
-day_06/structVSclass.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_06/structVSclass.cpp.s
-.PHONY : day_06/structVSclass.cpp.s
+day_06/memoryspace.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_06/memoryspace.cpp.s
+.PHONY : day_06/memoryspace.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... excersise_for_cplusplus
-	@echo ... day_06/structVSclass.obj
-	@echo ... day_06/structVSclass.i
-	@echo ... day_06/structVSclass.s
+	@echo ... day_06/memoryspace.obj
+	@echo ... day_06/memoryspace.i
+	@echo ... day_06/memoryspace.s
 .PHONY : help
 
 
