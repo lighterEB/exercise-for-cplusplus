@@ -1,0 +1,25 @@
+﻿//
+// Created by tosixJuly on 2021/1/5.
+//
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Is it Sunny (y/n)?" << endl;
+    char UserInput = 'y';
+    cin >> UserInput;
+    if (UserInput == 'y')
+    {
+        // initialized pointer
+        int* pTemperature = new int;
+        *pTemperature = 30;
+
+        cout << "Temperature is: " << *pTemperature << endl;
+
+        // done using pointer? delete
+        delete pTemperature;
+    }
+    return 0;
+}

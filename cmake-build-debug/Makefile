@@ -142,32 +142,32 @@ excersise_for_cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/build
 .PHONY : excersise_for_cplusplus/fast
 
-day_05/retYingyong.obj: day_05/retYingyong.cpp.obj
+day_06/structVSclass.obj: day_06/structVSclass.cpp.obj
 
-.PHONY : day_05/retYingyong.obj
+.PHONY : day_06/structVSclass.obj
 
 # target to build an object file
-day_05/retYingyong.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_05/retYingyong.cpp.obj
-.PHONY : day_05/retYingyong.cpp.obj
+day_06/structVSclass.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_06/structVSclass.cpp.obj
+.PHONY : day_06/structVSclass.cpp.obj
 
-day_05/retYingyong.i: day_05/retYingyong.cpp.i
+day_06/structVSclass.i: day_06/structVSclass.cpp.i
 
-.PHONY : day_05/retYingyong.i
+.PHONY : day_06/structVSclass.i
 
 # target to preprocess a source file
-day_05/retYingyong.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_05/retYingyong.cpp.i
-.PHONY : day_05/retYingyong.cpp.i
+day_06/structVSclass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_06/structVSclass.cpp.i
+.PHONY : day_06/structVSclass.cpp.i
 
-day_05/retYingyong.s: day_05/retYingyong.cpp.s
+day_06/structVSclass.s: day_06/structVSclass.cpp.s
 
-.PHONY : day_05/retYingyong.s
+.PHONY : day_06/structVSclass.s
 
 # target to generate assembly for a file
-day_05/retYingyong.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_05/retYingyong.cpp.s
-.PHONY : day_05/retYingyong.cpp.s
+day_06/structVSclass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_06/structVSclass.cpp.s
+.PHONY : day_06/structVSclass.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... excersise_for_cplusplus
-	@echo ... day_05/retYingyong.obj
-	@echo ... day_05/retYingyong.i
-	@echo ... day_05/retYingyong.s
+	@echo ... day_06/structVSclass.obj
+	@echo ... day_06/structVSclass.i
+	@echo ... day_06/structVSclass.s
 .PHONY : help
 
 
