@@ -3,4 +3,4 @@ project(excersise_for_cplusplus)
 
 set(CMAKE_CXX_STANDARD 98)
 
-add_executable(excersise_for_cplusplus "day 06/memoryspace.cpp")
+add_executable(excersise_for_cplusplus "day 06/newThrow.cpp")

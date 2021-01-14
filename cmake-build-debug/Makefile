@@ -142,32 +142,32 @@ excersise_for_cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/build
 .PHONY : excersise_for_cplusplus/fast
 
-day_06/memoryspace.obj: day_06/memoryspace.cpp.obj
+day_06/newThrow.obj: day_06/newThrow.cpp.obj
 
-.PHONY : day_06/memoryspace.obj
+.PHONY : day_06/newThrow.obj
 
 # target to build an object file
-day_06/memoryspace.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_06/memoryspace.cpp.obj
-.PHONY : day_06/memoryspace.cpp.obj
+day_06/newThrow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_06/newThrow.cpp.obj
+.PHONY : day_06/newThrow.cpp.obj
 
-day_06/memoryspace.i: day_06/memoryspace.cpp.i
+day_06/newThrow.i: day_06/newThrow.cpp.i
 
-.PHONY : day_06/memoryspace.i
+.PHONY : day_06/newThrow.i
 
 # target to preprocess a source file
-day_06/memoryspace.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_06/memoryspace.cpp.i
-.PHONY : day_06/memoryspace.cpp.i
+day_06/newThrow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_06/newThrow.cpp.i
+.PHONY : day_06/newThrow.cpp.i
 
-day_06/memoryspace.s: day_06/memoryspace.cpp.s
+day_06/newThrow.s: day_06/newThrow.cpp.s
 
-.PHONY : day_06/memoryspace.s
+.PHONY : day_06/newThrow.s
 
 # target to generate assembly for a file
-day_06/memoryspace.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_06/memoryspace.cpp.s
-.PHONY : day_06/memoryspace.cpp.s
+day_06/newThrow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_06/newThrow.cpp.s
+.PHONY : day_06/newThrow.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... excersise_for_cplusplus
-	@echo ... day_06/memoryspace.obj
-	@echo ... day_06/memoryspace.i
-	@echo ... day_06/memoryspace.s
+	@echo ... day_06/newThrow.obj
+	@echo ... day_06/newThrow.i
+	@echo ... day_06/newThrow.s
 .PHONY : help
 
 
