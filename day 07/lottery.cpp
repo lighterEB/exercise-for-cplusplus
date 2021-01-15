@@ -37,7 +37,7 @@ int checkRedBall(struct Results* b, int n)
 // 机选双色球
 void randomNumber(struct Results* b)
 {
-    srand(time(NULL));
+
     int rBall = 0;
     int bBall = 0;
     b->lSize = 1;
@@ -64,6 +64,7 @@ int main()
     int roll;
     cout << "Random number: " << endl;
     cin >> roll;
+    srand(time(NULL));
     for(int i = 1; i <= roll; i++)
     {
         randomNumber(&b);
