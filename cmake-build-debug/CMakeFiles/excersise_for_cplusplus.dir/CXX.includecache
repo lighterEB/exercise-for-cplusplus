@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-E:/Projects/C++Projects/excersise-for-cplusplus/day 06/newThrow.cpp
+E:/Projects/C++Projects/excersise-for-cplusplus/day 07/lottery.cpp
 iostream
+-
+cstdlib
+-
+ctime
 -
 

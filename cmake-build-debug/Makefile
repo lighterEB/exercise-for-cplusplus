@@ -142,32 +142,32 @@ excersise_for_cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/build
 .PHONY : excersise_for_cplusplus/fast
 
-day_06/newThrow.obj: day_06/newThrow.cpp.obj
+day_07/lottery.obj: day_07/lottery.cpp.obj
 
-.PHONY : day_06/newThrow.obj
+.PHONY : day_07/lottery.obj
 
 # target to build an object file
-day_06/newThrow.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_06/newThrow.cpp.obj
-.PHONY : day_06/newThrow.cpp.obj
+day_07/lottery.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_07/lottery.cpp.obj
+.PHONY : day_07/lottery.cpp.obj
 
-day_06/newThrow.i: day_06/newThrow.cpp.i
+day_07/lottery.i: day_07/lottery.cpp.i
 
-.PHONY : day_06/newThrow.i
+.PHONY : day_07/lottery.i
 
 # target to preprocess a source file
-day_06/newThrow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_06/newThrow.cpp.i
-.PHONY : day_06/newThrow.cpp.i
+day_07/lottery.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_07/lottery.cpp.i
+.PHONY : day_07/lottery.cpp.i
 
-day_06/newThrow.s: day_06/newThrow.cpp.s
+day_07/lottery.s: day_07/lottery.cpp.s
 
-.PHONY : day_06/newThrow.s
+.PHONY : day_07/lottery.s
 
 # target to generate assembly for a file
-day_06/newThrow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_06/newThrow.cpp.s
-.PHONY : day_06/newThrow.cpp.s
+day_07/lottery.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_07/lottery.cpp.s
+.PHONY : day_07/lottery.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... excersise_for_cplusplus
-	@echo ... day_06/newThrow.obj
-	@echo ... day_06/newThrow.i
-	@echo ... day_06/newThrow.s
+	@echo ... day_07/lottery.obj
+	@echo ... day_07/lottery.i
+	@echo ... day_07/lottery.s
 .PHONY : help
 
 
