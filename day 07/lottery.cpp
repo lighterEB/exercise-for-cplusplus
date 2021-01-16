@@ -47,16 +47,35 @@ void randomNumber(struct Results* b)
         if (checkRedBall(b, rBall) == 0)
         {
             b->lines.rBall[b->lSize - 1] = rBall;
-            cout << rBall << " ";
             b->lSize++;
         }
         if (b->lSize == 7)
         {
             bBall = rand() % 16 + 1;
             b->lines.bBall = bBall;
-            cout << "-- " << bBall << endl;
         }
     }
+}
+
+void displayBall(struct Results* b)
+{
+    for(int i = 0; i < b->lSize - 1; i++)
+    {
+        for(int j = 0; j < b->lSize-1-i-1; j++)
+        {
+            if (b->lines.rBall[j] > b->lines.rBall[j+1])
+            {
+                int temp = b->lines.rBall[j+1];
+                b->lines.rBall[j+1] = b->lines.rBall[j];
+                b->lines.rBall[j] = temp;
+            }
+        }
+    }
+    for(int i : b->lines.rBall)
+    {
+        cout << i << " ";
+    }
+    cout << " -- " << b->lines.bBall << endl;
 }
 int main()
 {
@@ -68,6 +87,7 @@ int main()
     for(int i = 1; i <= roll; i++)
     {
         randomNumber(&b);
+        displayBall(&b);
     }
 
 
