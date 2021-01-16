@@ -33,30 +33,6 @@ int checkRedBall(struct Results* b, int n)
     }
     return 0;
 }
-
-// 机选双色球
-void randomNumber(struct Results* b)
-{
-
-    int rBall = 0;
-    int bBall = 0;
-    b->lSize = 1;
-    while (b->lSize < 7)
-    {
-        rBall = rand() % 33 + 1;
-        if (checkRedBall(b, rBall) == 0)
-        {
-            b->lines.rBall[b->lSize - 1] = rBall;
-            b->lSize++;
-        }
-        if (b->lSize == 7)
-        {
-            bBall = rand() % 16 + 1;
-            b->lines.bBall = bBall;
-        }
-    }
-}
-
 void displayBall(struct Results* b)
 {
     for(int i = 0; i < b->lSize - 1; i++)
@@ -77,6 +53,32 @@ void displayBall(struct Results* b)
     }
     cout << " -- " << b->lines.bBall << endl;
 }
+
+// 机选双色球
+void randomNumber(struct Results* b, int roll)
+{
+
+    int rBall = 0;
+    int bBall = 0;
+    int count = 0;
+    b->lSize = 1;
+    while (b->lSize < 7 && count < roll)
+    {
+        rBall = rand() % 33 + 1;
+        if (checkRedBall(b, rBall) == 0)
+        {
+            b->lines.rBall[b->lSize - 1] = rBall;
+            b->lSize++;
+        }
+        if (b->lSize == 7) {
+            bBall = rand() % 16 + 1;
+            b->lines.bBall = bBall;
+            displayBall(b);
+            count++;
+            b->lSize = 0;
+        }
+    }
+}
 int main()
 {
     struct Results b;
@@ -84,11 +86,7 @@ int main()
     cout << "Random number: " << endl;
     cin >> roll;
     srand(time(NULL));
-    for(int i = 1; i <= roll; i++)
-    {
-        randomNumber(&b);
-        displayBall(&b);
-    }
+    randomNumber(&b, roll);
 
 
     return 0;
