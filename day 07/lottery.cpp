@@ -33,6 +33,8 @@ int checkRedBall(struct Results* b, int n)
     }
     return 0;
 }
+
+// 打印机选号码
 void displayBall(struct Results* b)
 {
     for(int i = 0; i < b->lSize - 1; i++)
@@ -79,6 +81,7 @@ void randomNumber(struct Results* b, int roll)
         }
     }
 }
+
 int main()
 {
     struct Results b;
