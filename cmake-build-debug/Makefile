@@ -142,33 +142,6 @@ excersise_for_cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/build
 .PHONY : excersise_for_cplusplus/fast
 
-day_07/lottery.obj: day_07/lottery.cpp.obj
-
-.PHONY : day_07/lottery.obj
-
-# target to build an object file
-day_07/lottery.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_07/lottery.cpp.obj
-.PHONY : day_07/lottery.cpp.obj
-
-day_07/lottery.i: day_07/lottery.cpp.i
-
-.PHONY : day_07/lottery.i
-
-# target to preprocess a source file
-day_07/lottery.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_07/lottery.cpp.i
-.PHONY : day_07/lottery.cpp.i
-
-day_07/lottery.s: day_07/lottery.cpp.s
-
-.PHONY : day_07/lottery.s
-
-# target to generate assembly for a file
-day_07/lottery.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_07/lottery.cpp.s
-.PHONY : day_07/lottery.cpp.s
-
 day_08/binaryConvert.obj: day_08/binaryConvert.cpp.obj
 
 .PHONY : day_08/binaryConvert.obj
@@ -205,9 +178,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... excersise_for_cplusplus
-	@echo ... day_07/lottery.obj
-	@echo ... day_07/lottery.i
-	@echo ... day_07/lottery.s
 	@echo ... day_08/binaryConvert.obj
 	@echo ... day_08/binaryConvert.i
 	@echo ... day_08/binaryConvert.s

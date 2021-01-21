@@ -80,9 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/Projects/C++Projects/excersise-for-cplusplus/day 07/lottery.cpp">
-			<Option target="excersise_for_cplusplus"/>
-		</Unit>
 		<Unit filename="E:/Projects/C++Projects/excersise-for-cplusplus/day 08/binaryConvert.cpp">
 			<Option target="excersise_for_cplusplus"/>
 		</Unit>
