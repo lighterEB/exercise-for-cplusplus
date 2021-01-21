@@ -3,4 +3,4 @@ project(excersise_for_cplusplus)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(excersise_for_cplusplus "day 07/lottery.cpp")
+add_executable(excersise_for_cplusplus "day 07/lottery.cpp" "day 08/binaryConvert.cpp")

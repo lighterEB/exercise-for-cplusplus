@@ -169,6 +169,33 @@ day_07/lottery.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_07/lottery.cpp.s
 .PHONY : day_07/lottery.cpp.s
 
+day_08/binaryConvert.obj: day_08/binaryConvert.cpp.obj
+
+.PHONY : day_08/binaryConvert.obj
+
+# target to build an object file
+day_08/binaryConvert.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_08/binaryConvert.cpp.obj
+.PHONY : day_08/binaryConvert.cpp.obj
+
+day_08/binaryConvert.i: day_08/binaryConvert.cpp.i
+
+.PHONY : day_08/binaryConvert.i
+
+# target to preprocess a source file
+day_08/binaryConvert.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_08/binaryConvert.cpp.i
+.PHONY : day_08/binaryConvert.cpp.i
+
+day_08/binaryConvert.s: day_08/binaryConvert.cpp.s
+
+.PHONY : day_08/binaryConvert.s
+
+# target to generate assembly for a file
+day_08/binaryConvert.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\excersise_for_cplusplus.dir\build.make CMakeFiles/excersise_for_cplusplus.dir/day_08/binaryConvert.cpp.s
+.PHONY : day_08/binaryConvert.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -181,6 +208,9 @@ help:
 	@echo ... day_07/lottery.obj
 	@echo ... day_07/lottery.i
 	@echo ... day_07/lottery.s
+	@echo ... day_08/binaryConvert.obj
+	@echo ... day_08/binaryConvert.i
+	@echo ... day_08/binaryConvert.s
 .PHONY : help
 
 
