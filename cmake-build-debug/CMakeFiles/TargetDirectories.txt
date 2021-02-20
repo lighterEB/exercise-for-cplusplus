@@ -1,3 +1,3 @@
-E:/Projects/C++Projects/excersise-for-cplusplus/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/Projects/C++Projects/excersise-for-cplusplus/cmake-build-debug/CMakeFiles/excersise_for_cplusplus.dir
-E:/Projects/C++Projects/excersise-for-cplusplus/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/tosixjuly/ClionProjects/exercise-for-cplusplus/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/tosixjuly/ClionProjects/exercise-for-cplusplus/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/tosixjuly/ClionProjects/exercise-for-cplusplus/cmake-build-debug/CMakeFiles/excersise_for_cplusplus.dir

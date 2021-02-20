@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/excersise_for_cplusplus.dir/day_08/binaryConvert.cpp.obj"
-  "excersise_for_cplusplus.exe"
-  "excersise_for_cplusplus.exe.manifest"
+  "CMakeFiles/excersise_for_cplusplus.dir/day_07/lottery.cpp.o"
+  "excersise_for_cplusplus"
   "excersise_for_cplusplus.pdb"
-  "libexcersise_for_cplusplus.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
