@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/tosixjuly/ClionProjects/exercise-for-cplusplus/day 07/lottery.cpp
+/Users/tosixjuly/ClionProjects/exercise-for-cplusplus/day 08/HumanClass.cpp
 iostream
 -
-cstdlib
--
-ctime
+string
 -
 
