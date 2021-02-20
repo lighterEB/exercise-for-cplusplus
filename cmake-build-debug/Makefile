@@ -143,32 +143,32 @@ excersise_for_cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/build
 .PHONY : excersise_for_cplusplus/fast
 
-day_08/HumanClass.o: day_08/HumanClass.cpp.o
+day_08/OverloadedConstructor.o: day_08/OverloadedConstructor.cpp.o
 
-.PHONY : day_08/HumanClass.o
+.PHONY : day_08/OverloadedConstructor.o
 
 # target to build an object file
-day_08/HumanClass.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_08/HumanClass.cpp.o
-.PHONY : day_08/HumanClass.cpp.o
+day_08/OverloadedConstructor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_08/OverloadedConstructor.cpp.o
+.PHONY : day_08/OverloadedConstructor.cpp.o
 
-day_08/HumanClass.i: day_08/HumanClass.cpp.i
+day_08/OverloadedConstructor.i: day_08/OverloadedConstructor.cpp.i
 
-.PHONY : day_08/HumanClass.i
+.PHONY : day_08/OverloadedConstructor.i
 
 # target to preprocess a source file
-day_08/HumanClass.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_08/HumanClass.cpp.i
-.PHONY : day_08/HumanClass.cpp.i
+day_08/OverloadedConstructor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_08/OverloadedConstructor.cpp.i
+.PHONY : day_08/OverloadedConstructor.cpp.i
 
-day_08/HumanClass.s: day_08/HumanClass.cpp.s
+day_08/OverloadedConstructor.s: day_08/OverloadedConstructor.cpp.s
 
-.PHONY : day_08/HumanClass.s
+.PHONY : day_08/OverloadedConstructor.s
 
 # target to generate assembly for a file
-day_08/HumanClass.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_08/HumanClass.cpp.s
-.PHONY : day_08/HumanClass.cpp.s
+day_08/OverloadedConstructor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_08/OverloadedConstructor.cpp.s
+.PHONY : day_08/OverloadedConstructor.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... excersise_for_cplusplus"
-	@echo "... day_08/HumanClass.o"
-	@echo "... day_08/HumanClass.i"
-	@echo "... day_08/HumanClass.s"
+	@echo "... day_08/OverloadedConstructor.o"
+	@echo "... day_08/OverloadedConstructor.i"
+	@echo "... day_08/OverloadedConstructor.s"
 .PHONY : help
 
 

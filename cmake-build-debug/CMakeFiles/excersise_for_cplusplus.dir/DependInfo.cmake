@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/tosixjuly/ClionProjects/exercise-for-cplusplus/day 08/HumanClass.cpp" "/Users/tosixjuly/ClionProjects/exercise-for-cplusplus/cmake-build-debug/CMakeFiles/excersise_for_cplusplus.dir/day_08/HumanClass.cpp.o"
+  "/Users/tosixjuly/ClionProjects/exercise-for-cplusplus/day 08/OverloadedConstructor.cpp" "/Users/tosixjuly/ClionProjects/exercise-for-cplusplus/cmake-build-debug/CMakeFiles/excersise_for_cplusplus.dir/day_08/OverloadedConstructor.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
