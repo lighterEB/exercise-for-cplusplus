@@ -50,7 +50,7 @@ public:
 
     void IntroduceSelf()
     {
-        cout << "I am " + Name << "and am ";
+        cout << "I am " + Name << " and am ";
         cout << Age << " years old" << endl;
     }
 };
