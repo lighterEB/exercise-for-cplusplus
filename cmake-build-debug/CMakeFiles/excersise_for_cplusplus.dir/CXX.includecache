@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/tosixjuly/ClionProjects/exercise-for-cplusplus/day 08/OverloadedWithoutDefaultConstructor.cpp
+/Users/tosixjuly/ClionProjects/exercise-for-cplusplus/day 08/ConstructorWithParameters.cpp
 iostream
 -
 string

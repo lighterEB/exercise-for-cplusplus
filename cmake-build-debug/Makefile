@@ -143,32 +143,32 @@ excersise_for_cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/build
 .PHONY : excersise_for_cplusplus/fast
 
-day_08/OverloadedWithoutDefaultConstructor.o: day_08/OverloadedWithoutDefaultConstructor.cpp.o
+day_08/ConstructorWithParameters.o: day_08/ConstructorWithParameters.cpp.o
 
-.PHONY : day_08/OverloadedWithoutDefaultConstructor.o
+.PHONY : day_08/ConstructorWithParameters.o
 
 # target to build an object file
-day_08/OverloadedWithoutDefaultConstructor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_08/OverloadedWithoutDefaultConstructor.cpp.o
-.PHONY : day_08/OverloadedWithoutDefaultConstructor.cpp.o
+day_08/ConstructorWithParameters.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_08/ConstructorWithParameters.cpp.o
+.PHONY : day_08/ConstructorWithParameters.cpp.o
 
-day_08/OverloadedWithoutDefaultConstructor.i: day_08/OverloadedWithoutDefaultConstructor.cpp.i
+day_08/ConstructorWithParameters.i: day_08/ConstructorWithParameters.cpp.i
 
-.PHONY : day_08/OverloadedWithoutDefaultConstructor.i
+.PHONY : day_08/ConstructorWithParameters.i
 
 # target to preprocess a source file
-day_08/OverloadedWithoutDefaultConstructor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_08/OverloadedWithoutDefaultConstructor.cpp.i
-.PHONY : day_08/OverloadedWithoutDefaultConstructor.cpp.i
+day_08/ConstructorWithParameters.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_08/ConstructorWithParameters.cpp.i
+.PHONY : day_08/ConstructorWithParameters.cpp.i
 
-day_08/OverloadedWithoutDefaultConstructor.s: day_08/OverloadedWithoutDefaultConstructor.cpp.s
+day_08/ConstructorWithParameters.s: day_08/ConstructorWithParameters.cpp.s
 
-.PHONY : day_08/OverloadedWithoutDefaultConstructor.s
+.PHONY : day_08/ConstructorWithParameters.s
 
 # target to generate assembly for a file
-day_08/OverloadedWithoutDefaultConstructor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_08/OverloadedWithoutDefaultConstructor.cpp.s
-.PHONY : day_08/OverloadedWithoutDefaultConstructor.cpp.s
+day_08/ConstructorWithParameters.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_08/ConstructorWithParameters.cpp.s
+.PHONY : day_08/ConstructorWithParameters.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... excersise_for_cplusplus"
-	@echo "... day_08/OverloadedWithoutDefaultConstructor.o"
-	@echo "... day_08/OverloadedWithoutDefaultConstructor.i"
-	@echo "... day_08/OverloadedWithoutDefaultConstructor.s"
+	@echo "... day_08/ConstructorWithParameters.o"
+	@echo "... day_08/ConstructorWithParameters.i"
+	@echo "... day_08/ConstructorWithParameters.s"
 .PHONY : help
 
 

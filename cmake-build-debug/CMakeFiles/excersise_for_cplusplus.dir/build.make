@@ -77,27 +77,27 @@ include CMakeFiles/excersise_for_cplusplus.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/excersise_for_cplusplus.dir/flags.make
 
-CMakeFiles/excersise_for_cplusplus.dir/day_08/OverloadedWithoutDefaultConstructor.cpp.o: CMakeFiles/excersise_for_cplusplus.dir/flags.make
-CMakeFiles/excersise_for_cplusplus.dir/day_08/OverloadedWithoutDefaultConstructor.cpp.o: ../day\ 08/OverloadedWithoutDefaultConstructor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tosixjuly/ClionProjects/exercise-for-cplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/excersise_for_cplusplus.dir/day_08/OverloadedWithoutDefaultConstructor.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/excersise_for_cplusplus.dir/day_08/OverloadedWithoutDefaultConstructor.cpp.o -c "/Users/tosixjuly/ClionProjects/exercise-for-cplusplus/day 08/OverloadedWithoutDefaultConstructor.cpp"
+CMakeFiles/excersise_for_cplusplus.dir/day_08/ConstructorWithParameters.cpp.o: CMakeFiles/excersise_for_cplusplus.dir/flags.make
+CMakeFiles/excersise_for_cplusplus.dir/day_08/ConstructorWithParameters.cpp.o: ../day\ 08/ConstructorWithParameters.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tosixjuly/ClionProjects/exercise-for-cplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/excersise_for_cplusplus.dir/day_08/ConstructorWithParameters.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/excersise_for_cplusplus.dir/day_08/ConstructorWithParameters.cpp.o -c "/Users/tosixjuly/ClionProjects/exercise-for-cplusplus/day 08/ConstructorWithParameters.cpp"
 
-CMakeFiles/excersise_for_cplusplus.dir/day_08/OverloadedWithoutDefaultConstructor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/excersise_for_cplusplus.dir/day_08/OverloadedWithoutDefaultConstructor.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/tosixjuly/ClionProjects/exercise-for-cplusplus/day 08/OverloadedWithoutDefaultConstructor.cpp" > CMakeFiles/excersise_for_cplusplus.dir/day_08/OverloadedWithoutDefaultConstructor.cpp.i
+CMakeFiles/excersise_for_cplusplus.dir/day_08/ConstructorWithParameters.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/excersise_for_cplusplus.dir/day_08/ConstructorWithParameters.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/tosixjuly/ClionProjects/exercise-for-cplusplus/day 08/ConstructorWithParameters.cpp" > CMakeFiles/excersise_for_cplusplus.dir/day_08/ConstructorWithParameters.cpp.i
 
-CMakeFiles/excersise_for_cplusplus.dir/day_08/OverloadedWithoutDefaultConstructor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/excersise_for_cplusplus.dir/day_08/OverloadedWithoutDefaultConstructor.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/tosixjuly/ClionProjects/exercise-for-cplusplus/day 08/OverloadedWithoutDefaultConstructor.cpp" -o CMakeFiles/excersise_for_cplusplus.dir/day_08/OverloadedWithoutDefaultConstructor.cpp.s
+CMakeFiles/excersise_for_cplusplus.dir/day_08/ConstructorWithParameters.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/excersise_for_cplusplus.dir/day_08/ConstructorWithParameters.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/tosixjuly/ClionProjects/exercise-for-cplusplus/day 08/ConstructorWithParameters.cpp" -o CMakeFiles/excersise_for_cplusplus.dir/day_08/ConstructorWithParameters.cpp.s
 
 # Object files for target excersise_for_cplusplus
 excersise_for_cplusplus_OBJECTS = \
-"CMakeFiles/excersise_for_cplusplus.dir/day_08/OverloadedWithoutDefaultConstructor.cpp.o"
+"CMakeFiles/excersise_for_cplusplus.dir/day_08/ConstructorWithParameters.cpp.o"
 
 # External object files for target excersise_for_cplusplus
 excersise_for_cplusplus_EXTERNAL_OBJECTS =
 
-excersise_for_cplusplus: CMakeFiles/excersise_for_cplusplus.dir/day_08/OverloadedWithoutDefaultConstructor.cpp.o
+excersise_for_cplusplus: CMakeFiles/excersise_for_cplusplus.dir/day_08/ConstructorWithParameters.cpp.o
 excersise_for_cplusplus: CMakeFiles/excersise_for_cplusplus.dir/build.make
 excersise_for_cplusplus: CMakeFiles/excersise_for_cplusplus.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tosixjuly/ClionProjects/exercise-for-cplusplus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable excersise_for_cplusplus"

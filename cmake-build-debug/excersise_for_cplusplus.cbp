@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/tosixjuly/ClionProjects/exercise-for-cplusplus/day 08/OverloadedWithoutDefaultConstructor.cpp">
+		<Unit filename="/Users/tosixjuly/ClionProjects/exercise-for-cplusplus/day 08/ConstructorWithParameters.cpp">
 			<Option target="excersise_for_cplusplus"/>
 		</Unit>
 		<Unit filename="/Users/tosixjuly/ClionProjects/exercise-for-cplusplus/CMakeLists.txt">
