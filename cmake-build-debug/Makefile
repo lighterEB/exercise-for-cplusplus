@@ -143,32 +143,32 @@ excersise_for_cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/build
 .PHONY : excersise_for_cplusplus/fast
 
-day_08/ConstructorWithParameters.o: day_08/ConstructorWithParameters.cpp.o
+day_09/DestructorDemo.o: day_09/DestructorDemo.cpp.o
 
-.PHONY : day_08/ConstructorWithParameters.o
+.PHONY : day_09/DestructorDemo.o
 
 # target to build an object file
-day_08/ConstructorWithParameters.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_08/ConstructorWithParameters.cpp.o
-.PHONY : day_08/ConstructorWithParameters.cpp.o
+day_09/DestructorDemo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_09/DestructorDemo.cpp.o
+.PHONY : day_09/DestructorDemo.cpp.o
 
-day_08/ConstructorWithParameters.i: day_08/ConstructorWithParameters.cpp.i
+day_09/DestructorDemo.i: day_09/DestructorDemo.cpp.i
 
-.PHONY : day_08/ConstructorWithParameters.i
+.PHONY : day_09/DestructorDemo.i
 
 # target to preprocess a source file
-day_08/ConstructorWithParameters.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_08/ConstructorWithParameters.cpp.i
-.PHONY : day_08/ConstructorWithParameters.cpp.i
+day_09/DestructorDemo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_09/DestructorDemo.cpp.i
+.PHONY : day_09/DestructorDemo.cpp.i
 
-day_08/ConstructorWithParameters.s: day_08/ConstructorWithParameters.cpp.s
+day_09/DestructorDemo.s: day_09/DestructorDemo.cpp.s
 
-.PHONY : day_08/ConstructorWithParameters.s
+.PHONY : day_09/DestructorDemo.s
 
 # target to generate assembly for a file
-day_08/ConstructorWithParameters.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_08/ConstructorWithParameters.cpp.s
-.PHONY : day_08/ConstructorWithParameters.cpp.s
+day_09/DestructorDemo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_09/DestructorDemo.cpp.s
+.PHONY : day_09/DestructorDemo.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... excersise_for_cplusplus"
-	@echo "... day_08/ConstructorWithParameters.o"
-	@echo "... day_08/ConstructorWithParameters.i"
-	@echo "... day_08/ConstructorWithParameters.s"
+	@echo "... day_09/DestructorDemo.o"
+	@echo "... day_09/DestructorDemo.i"
+	@echo "... day_09/DestructorDemo.s"
 .PHONY : help
 
 
