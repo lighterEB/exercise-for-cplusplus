@@ -143,32 +143,32 @@ excersise_for_cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/build
 .PHONY : excersise_for_cplusplus/fast
 
-day_09/DestructorDemo.o: day_09/DestructorDemo.cpp.o
+day_09/CopyConstructor.o: day_09/CopyConstructor.cpp.o
 
-.PHONY : day_09/DestructorDemo.o
+.PHONY : day_09/CopyConstructor.o
 
 # target to build an object file
-day_09/DestructorDemo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_09/DestructorDemo.cpp.o
-.PHONY : day_09/DestructorDemo.cpp.o
+day_09/CopyConstructor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_09/CopyConstructor.cpp.o
+.PHONY : day_09/CopyConstructor.cpp.o
 
-day_09/DestructorDemo.i: day_09/DestructorDemo.cpp.i
+day_09/CopyConstructor.i: day_09/CopyConstructor.cpp.i
 
-.PHONY : day_09/DestructorDemo.i
+.PHONY : day_09/CopyConstructor.i
 
 # target to preprocess a source file
-day_09/DestructorDemo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_09/DestructorDemo.cpp.i
-.PHONY : day_09/DestructorDemo.cpp.i
+day_09/CopyConstructor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_09/CopyConstructor.cpp.i
+.PHONY : day_09/CopyConstructor.cpp.i
 
-day_09/DestructorDemo.s: day_09/DestructorDemo.cpp.s
+day_09/CopyConstructor.s: day_09/CopyConstructor.cpp.s
 
-.PHONY : day_09/DestructorDemo.s
+.PHONY : day_09/CopyConstructor.s
 
 # target to generate assembly for a file
-day_09/DestructorDemo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_09/DestructorDemo.cpp.s
-.PHONY : day_09/DestructorDemo.cpp.s
+day_09/CopyConstructor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_09/CopyConstructor.cpp.s
+.PHONY : day_09/CopyConstructor.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... excersise_for_cplusplus"
-	@echo "... day_09/DestructorDemo.o"
-	@echo "... day_09/DestructorDemo.i"
-	@echo "... day_09/DestructorDemo.s"
+	@echo "... day_09/CopyConstructor.o"
+	@echo "... day_09/CopyConstructor.i"
+	@echo "... day_09/CopyConstructor.s"
 .PHONY : help
 
 
