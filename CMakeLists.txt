@@ -3,4 +3,4 @@ project(excersise_for_cplusplus)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(excersise_for_cplusplus "day 09/CopyConstructor.cpp")
+add_executable(excersise_for_cplusplus "day 10/Friends.cpp")

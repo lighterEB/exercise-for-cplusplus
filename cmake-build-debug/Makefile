@@ -143,32 +143,32 @@ excersise_for_cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/build
 .PHONY : excersise_for_cplusplus/fast
 
-day_09/CopyConstructor.o: day_09/CopyConstructor.cpp.o
+day_10/Friends.o: day_10/Friends.cpp.o
 
-.PHONY : day_09/CopyConstructor.o
+.PHONY : day_10/Friends.o
 
 # target to build an object file
-day_09/CopyConstructor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_09/CopyConstructor.cpp.o
-.PHONY : day_09/CopyConstructor.cpp.o
+day_10/Friends.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_10/Friends.cpp.o
+.PHONY : day_10/Friends.cpp.o
 
-day_09/CopyConstructor.i: day_09/CopyConstructor.cpp.i
+day_10/Friends.i: day_10/Friends.cpp.i
 
-.PHONY : day_09/CopyConstructor.i
+.PHONY : day_10/Friends.i
 
 # target to preprocess a source file
-day_09/CopyConstructor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_09/CopyConstructor.cpp.i
-.PHONY : day_09/CopyConstructor.cpp.i
+day_10/Friends.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_10/Friends.cpp.i
+.PHONY : day_10/Friends.cpp.i
 
-day_09/CopyConstructor.s: day_09/CopyConstructor.cpp.s
+day_10/Friends.s: day_10/Friends.cpp.s
 
-.PHONY : day_09/CopyConstructor.s
+.PHONY : day_10/Friends.s
 
 # target to generate assembly for a file
-day_09/CopyConstructor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_09/CopyConstructor.cpp.s
-.PHONY : day_09/CopyConstructor.cpp.s
+day_10/Friends.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_10/Friends.cpp.s
+.PHONY : day_10/Friends.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... excersise_for_cplusplus"
-	@echo "... day_09/CopyConstructor.o"
-	@echo "... day_09/CopyConstructor.i"
-	@echo "... day_09/CopyConstructor.s"
+	@echo "... day_10/Friends.o"
+	@echo "... day_10/Friends.i"
+	@echo "... day_10/Friends.s"
 .PHONY : help
 
 
