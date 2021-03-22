@@ -20,6 +20,7 @@ public:
 
 class Building
 {
+    friend GoodGay;
 public:
     Building();
     string m_SittingRoom;
@@ -41,7 +42,8 @@ GoodGay::GoodGay()
 
 void GoodGay::visit()
 {
-    cout << "Class of GoodGay is visited" << building->m_SittingRoom << endl;
+    cout << "GoodGay class is visited" << building->m_SittingRoom << endl;
+    cout << "GoodGay class is visited" << building->m_BedRoom << endl;
 }
 
 void test01()
