@@ -14,8 +14,14 @@ public:
     }
     MyInteger& operator ++ ()
     {
-        cout << ++m_Num << endl;
+        ++m_Num;
         return *this;
+    }
+    MyInteger& operator ++ (int)
+    {
+        MyInteger temp = *this;
+        m_Num++;
+        return temp;
     }
 private:
     int m_Num{};
@@ -30,7 +36,8 @@ ostream & operator << (ostream& cout, MyInteger myInteger)
 void test01()
 {
     MyInteger MyInt;
-    cout << ++MyInt << endl;
+    cout << MyInt++ <<endl;
+    cout << MyInt << endl;
 }
 
 int main()
