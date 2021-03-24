@@ -6,37 +6,37 @@ using namespace std;
 
 class MyInteger
 {
-    friend ostream & operator << (ostream& cout, MyInteger myInteger);
+    friend ostream & operator << (ostream& cot, MyInteger MyInt);
 public:
     MyInteger()
     {
-        int m_Num = 10;
+        m_Num = 5;
     }
-    MyInteger& operator ++ ()
+    MyInteger& operator -- ()
     {
-        ++m_Num;
+        --m_Num;
         return *this;
     }
-    MyInteger operator ++ (int)
+    MyInteger operator -- (int)
     {
         MyInteger temp = *this;
-        m_Num++;
+        m_Num--;
         return temp;
     }
 private:
-    int m_Num{};
+    int m_Num;
 };
 
-ostream & operator << (ostream& cout, MyInteger myInteger)
+ostream & operator << (ostream& cot, MyInteger MyInt)
 {
-    cout << myInteger.m_Num << endl;
-    return cout;
+    cout << MyInt.m_Num << endl;
+    return cot;
 }
 
 void test01()
 {
     MyInteger MyInt;
-    cout << MyInt++ <<endl;
+    cout << MyInt-- << endl;
     cout << MyInt << endl;
 }
 

@@ -143,32 +143,32 @@ excersise_for_cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/build
 .PHONY : excersise_for_cplusplus/fast
 
-day_11/Reload.o: day_11/Reload.cpp.o
+day_11/Reload1.o: day_11/Reload1.cpp.o
 
-.PHONY : day_11/Reload.o
+.PHONY : day_11/Reload1.o
 
 # target to build an object file
-day_11/Reload.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_11/Reload.cpp.o
-.PHONY : day_11/Reload.cpp.o
+day_11/Reload1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_11/Reload1.cpp.o
+.PHONY : day_11/Reload1.cpp.o
 
-day_11/Reload.i: day_11/Reload.cpp.i
+day_11/Reload1.i: day_11/Reload1.cpp.i
 
-.PHONY : day_11/Reload.i
+.PHONY : day_11/Reload1.i
 
 # target to preprocess a source file
-day_11/Reload.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_11/Reload.cpp.i
-.PHONY : day_11/Reload.cpp.i
+day_11/Reload1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_11/Reload1.cpp.i
+.PHONY : day_11/Reload1.cpp.i
 
-day_11/Reload.s: day_11/Reload.cpp.s
+day_11/Reload1.s: day_11/Reload1.cpp.s
 
-.PHONY : day_11/Reload.s
+.PHONY : day_11/Reload1.s
 
 # target to generate assembly for a file
-day_11/Reload.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_11/Reload.cpp.s
-.PHONY : day_11/Reload.cpp.s
+day_11/Reload1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_11/Reload1.cpp.s
+.PHONY : day_11/Reload1.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... excersise_for_cplusplus"
-	@echo "... day_11/Reload.o"
-	@echo "... day_11/Reload.i"
-	@echo "... day_11/Reload.s"
+	@echo "... day_11/Reload1.o"
+	@echo "... day_11/Reload1.i"
+	@echo "... day_11/Reload1.s"
 .PHONY : help
 
 

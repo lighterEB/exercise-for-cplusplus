@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/excersise_for_cplusplus.dir/day_11/Reload.cpp.o"
+  "CMakeFiles/excersise_for_cplusplus.dir/day_11/Reload1.cpp.o"
   "excersise_for_cplusplus"
   "excersise_for_cplusplus.pdb"
 )
