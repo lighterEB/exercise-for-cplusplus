@@ -143,32 +143,32 @@ excersise_for_cplusplus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/build
 .PHONY : excersise_for_cplusplus/fast
 
-day_10/ClassFriends.o: day_10/ClassFriends.cpp.o
+day_11/Reload.o: day_11/Reload.cpp.o
 
-.PHONY : day_10/ClassFriends.o
+.PHONY : day_11/Reload.o
 
 # target to build an object file
-day_10/ClassFriends.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_10/ClassFriends.cpp.o
-.PHONY : day_10/ClassFriends.cpp.o
+day_11/Reload.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_11/Reload.cpp.o
+.PHONY : day_11/Reload.cpp.o
 
-day_10/ClassFriends.i: day_10/ClassFriends.cpp.i
+day_11/Reload.i: day_11/Reload.cpp.i
 
-.PHONY : day_10/ClassFriends.i
+.PHONY : day_11/Reload.i
 
 # target to preprocess a source file
-day_10/ClassFriends.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_10/ClassFriends.cpp.i
-.PHONY : day_10/ClassFriends.cpp.i
+day_11/Reload.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_11/Reload.cpp.i
+.PHONY : day_11/Reload.cpp.i
 
-day_10/ClassFriends.s: day_10/ClassFriends.cpp.s
+day_11/Reload.s: day_11/Reload.cpp.s
 
-.PHONY : day_10/ClassFriends.s
+.PHONY : day_11/Reload.s
 
 # target to generate assembly for a file
-day_10/ClassFriends.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_10/ClassFriends.cpp.s
-.PHONY : day_10/ClassFriends.cpp.s
+day_11/Reload.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/excersise_for_cplusplus.dir/build.make CMakeFiles/excersise_for_cplusplus.dir/day_11/Reload.cpp.s
+.PHONY : day_11/Reload.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... excersise_for_cplusplus"
-	@echo "... day_10/ClassFriends.o"
-	@echo "... day_10/ClassFriends.i"
-	@echo "... day_10/ClassFriends.s"
+	@echo "... day_11/Reload.o"
+	@echo "... day_11/Reload.i"
+	@echo "... day_11/Reload.s"
 .PHONY : help
 
 
